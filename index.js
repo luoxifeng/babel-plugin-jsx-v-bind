@@ -3,7 +3,7 @@
 module.exports = function (babel) {
   var t = babel.types
 
-  return {
+  return { // 最新使用@vue/babel-plugin
     inherits: require('babel-plugin-syntax-jsx'),
     visitor: {
       JSXOpeningElement: function JSXOpeningElement(path) {
